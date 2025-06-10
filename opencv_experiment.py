@@ -40,8 +40,6 @@ print(f'visionSensor handle : {visionSensorright}')
 
 stereo = cv.StereoBM_create(numDisparities=64,blockSize=15)
 
-
-
 #Q = ...  # This needs to be loaded or calculated from stereo calibrationb:  https://docs.opencv.org/4.11.0/d9/d0c/group__calib3d.html#ga617b1685d4059c6040827800e72ad2b6 
 #points_3D = disparityToPointCloud(disparity, Q)
 
