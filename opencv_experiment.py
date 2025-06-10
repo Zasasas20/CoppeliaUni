@@ -30,7 +30,6 @@ client = RemoteAPIClient()
 sim = client.require('sim')
 sim.startSimulation()
 
-
 # Get vision sensor handle
 visionSensorright = sim.getObject('./visionSensorright')
 visionSensorleft = sim.getObject('./visionSensorleft')
@@ -51,3 +50,4 @@ while True:
     cv.imshow('imgR', imgR)
     cv.imshow('disparity', disparity)
     cv.waitKey(1)
+
